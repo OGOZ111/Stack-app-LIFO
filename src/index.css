@@ -1,0 +1,67 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: 500px;
+  justify-content: center;
+  border: 2px solid #eee;
+  margin-top: 200px;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.result {
+  margin-top: 20px;
+}
+
+.entry {
+  padding: 5px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.button {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 16px;
+  padding: 10px;
+
+}
+
+.text {
+  font-size: 20px;
+}
+
+.result {
+  font-size: 32px;
+  font-weight: bolder;
+color: gold;
+
+}
