@@ -54,7 +54,7 @@ function App() {
             </div>
             <p className="text"
             >
-                Last In : {peek()}
+                Last In, First out will be : {peek()}
             </p>
  
             <p className="text"
